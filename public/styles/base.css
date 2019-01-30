@@ -1,0 +1,85 @@
+body {
+    background: #f9f9f9;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.converter-block {
+    background-color: #fff;
+    width:600px;
+    height: 600px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    padding:15px 30px;
+}
+.converter-header {
+    text-align: center;
+    padding:45px 0 0 0;
+    font-size: 30px;
+    font-family: 'bernier';
+}
+.converter-instructions {
+    text-align: center;
+    padding-bottom:30px;
+}
+.converter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.convert-container {
+    padding-bottom: 30px;
+}
+.convert-caption {
+    padding-bottom:5px;
+    text-align: center;
+    font-weight: 600;
+}
+.fromConvert, .toConvert, .amountConvert {
+    border: 1px solid #E0E0E0;
+    padding:12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.fromConvert:focus, .toConvert:focus, .amountConvert:focus {
+    outline: 1px solid black;
+}
+.convert-result-caption, .convert-result-total {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.convert-result-caption {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 27px;
+    font-family: 'bernier';
+}
+.convert-result-total {
+    color: #3065B7;
+    border-bottom: 1px solid #3065B7;
+    padding: 0;
+    line-height: 32px;
+}
+input[type=text] {
+    max-width: 200px;
+}
+.convert-button {
+    background: #3065B7;
+    border-radius: 4px;
+    padding: 13px 0;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 194px;
+    border: none;
+    cursor:pointer;
+}

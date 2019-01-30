@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="public/styles/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="converter-block">
+            <div class="converter-header">Currency Converter</div>
+            <div class="converter-instructions">(Enter currency code like: USD, EUR, GBP)</div>
+            <form id="converter-form" class="converter-form">
+                <div class="convert-container">
+                    <div class="convert-caption">From convert</div>
+                    <input type="text" class="fromConvert" >
+                </div>
+                <div class="convert-container">
+                    <div class="convert-caption">To convert</div>
+                    <input type="text" class="toConvert" >
+                </div>
+                <div class="convert-container">
+                    <div class="convert-caption">Amount</div>
+                    <input type="text" class="amountConvert" >
+                </div>
+                <button type="submit" class="convert-button">convert</button>
+            </form>
+            <div class="convert-result-caption">Result:</div>
+            <span class="convert-result-total"></span>
+        </div>
+    </div>
+    <script src="dist/build.js"></script>
+</body>
+</html>
