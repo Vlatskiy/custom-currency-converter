@@ -4,4 +4,4 @@
 * Work with API;
 * Async JS
 
-[Demo](https://vlatskiy.github.io/custom-currency-converter/index.html)
+[Demo](https://vlatskiy.github.io/Custom-currency-converter/index.html)
